@@ -6,7 +6,7 @@ def method1():
     n2 = int(input("Input num 02: "))
     for num in range (n1, n2+1):
         if num > 1:
-            for pn in range (2, i):
+            for pn in range (2, num):
                 if num % pn == 0:
                     break
             else:                                # each of for can use after break
