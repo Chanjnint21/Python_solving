@@ -1,5 +1,5 @@
 # Check the palindrome number
-num = 101
+num = int(input("Enter binary number: "))
 temp = num 
 reversed = 0
 
@@ -13,4 +13,7 @@ if reversed == temp :
     print("True")
 else:
     print("False")
+
+# input = 101
+# out put reverse : 101 True
 
